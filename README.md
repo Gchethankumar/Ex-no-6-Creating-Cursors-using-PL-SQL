@@ -14,14 +14,17 @@ To create a cursor using PL/SQL.
 Developed By : Chethan Kumar G
 Register number: 212222240022
 ```
-### Create employee table
+### Create employee table:
 ```sql
 CREATE TABLE employee(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10), salary NUMBER);
+```
+### Insert values into employee table: 
+```sql
 INSERT INTO employee VALUES(1,'Dileep','HR',600000);
 INSERT INTO employee VALUES(2,'Anji','MD',950000);
 INSERT INTO employee VALUES(3,'Jaggu','Finance',800000);
 ```
-### SQL Cursor code
+### SQL Cursor code:
 ```sql
      set serveroutput on
      declare
